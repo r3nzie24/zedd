@@ -7,8 +7,19 @@ body {
 }
 
 h1 {
+
+  font-size: 3.625rem;
   margin-top: 0;
 
+}
+
+h2{
+  font-size: 2.625rem;
+
+}
+
+p{
+  font-size: 1.625rem;
 }
 
 .top-container{
@@ -31,10 +42,24 @@ h1 {
 
 .mid-container{
   background-color: #93b5e1;
-  padding: 200px;
+  padding: 50px;
 }
 
 .bottom-container{
   background-color: #3282b8;
-  padding: 200px;
+  padding: 50px;
 }
+
+
+.children{
+  float: left;
+  width: 15%;
+
+}
+
+.dog{
+  float: right;
+  width: 15%;
+
+}
+
