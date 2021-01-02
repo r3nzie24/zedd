@@ -1,5 +1,4 @@
 body {
-  background-color: #51adcf;
   margin: 0;
   font-family: 'Lobster',cursive;
 }
@@ -19,6 +18,13 @@ h2{
 p{
   font-size: 1.625rem;
 
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container{
@@ -42,14 +48,11 @@ p{
 
 .mid-container{
   text-align: center;
-  background-color: #93b5e1;
-  padding: 50px;
 }
 
 .bottom-container{
   text-align: center;
-  background-color: #3282b8;
-  padding: 50px;
+  background-color: #ecf4f3;
 
 }
 
@@ -72,5 +75,6 @@ p{
   text-align: center;
 }
 .bottom-footer{
+  background-color: #ecf4f3;
   text-align: center;
 }
