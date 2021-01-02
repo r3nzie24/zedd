@@ -1,9 +1,7 @@
 body {
   background-color: #51adcf;
-  text-align: center;
   margin: 0;
   font-family: 'Lobster',cursive;
-
 }
 
 h1 {
@@ -20,9 +18,11 @@ h2{
 
 p{
   font-size: 1.625rem;
+
 }
 
 .top-container{
+  text-align: center;
   background-color: #ecf4f3;
   margin-top: 0px;
   padding-top: 200px;
@@ -41,25 +41,36 @@ p{
 }
 
 .mid-container{
+  text-align: center;
   background-color: #93b5e1;
   padding: 50px;
 }
 
 .bottom-container{
+  text-align: center;
   background-color: #3282b8;
   padding: 50px;
+
 }
 
 
 .children{
   float: left;
   width: 15%;
+  padding: 10px;
 
 }
 
 .dog{
   float: right;
   width: 15%;
+  padding: 10px;
 
 }
 
+.contact{
+  text-align: center;
+}
+.bottom-footer{
+  text-align: center;
+}
